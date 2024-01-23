@@ -39,7 +39,7 @@
   },
   "scripts": {
     "client": "craco  start",
-    "server": "cd backend & npm start",
+    "server": "cd backend && npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "craco test",
     "eject": "react-scripts eject"
@@ -49,6 +49,9 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "engines": {
+    "node": "v16.16.0"
   },
   "browserslist": {
     "production": [
