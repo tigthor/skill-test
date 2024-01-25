@@ -10,11 +10,12 @@ module.exports = {
     deliverEmail: function (dest, subject, body) {
         var transport = nodemailer.createTransport({
             service: process.env.EMAIL_SERVICE,
-            //host: process.env.EMAIL_HOST,
-            //port: Number(process.env.EMAIL_PORT),
+            host: process.env.EMAIL_HOST,
+            port: Number(process.env.EMAIL_PORT),
             auth: {
                 //user: process.env.EMAIL_USER,
                 user: process.env.EMAIL,
+                email: process.env.EMAIL,
                 pass: process.env.EMAIL_PWD
             }
         });

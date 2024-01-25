@@ -154,4 +154,4 @@ class UserController {
 /******************************************************************************
  *                               Export
  ******************************************************************************/
-module.exports = new UserController;
+module.exports = new UserController();
