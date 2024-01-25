@@ -1,4 +1,4 @@
-export const SERVER_URL = "https://mglcoin.io/api/"
+export const SERVER_URL = "http://127.0.0.1:8050/api/"
 // export const SERVER_URL = "http://10.10.12.157:5000/api/"
 
 export const networks=[
@@ -9,6 +9,7 @@ export const networks=[
     routerAddr:"0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
     baseTokenAddr:"0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
     usdAddr:"0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+    ethAddr: "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
     usdDecimal:6,
     chainId:'137',
   },
@@ -20,6 +21,7 @@ export const networks=[
     routerAddr:"0x10ED43C718714eb63d5aA57B78B54704E256024E",
     baseTokenAddr:"0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
     usdAddr:"0xe9e7cea3dedca5984780bafc599bd69add087d56",
+    ethAddr: "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
     usdDecimal:18,
     chainId:'56',
   },
